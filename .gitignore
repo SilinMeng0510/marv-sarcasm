@@ -1,2 +1,4 @@
 venv/
 flagged/
+constants.py
+__pycache__/

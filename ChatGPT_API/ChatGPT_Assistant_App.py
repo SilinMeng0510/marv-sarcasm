@@ -1,7 +1,11 @@
+import sys
+sys.path.append("/Users/silinmeng/Python_Projects/ChatBot")
+
 import openai
 import gradio
+import constants
 
-openai.api_key = "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"
+openai.api_key = constants.API_KEY
 
 messages = [{"role": "system", "content": "You are a financial experts that specializes in stock and long_term investment"}]
 

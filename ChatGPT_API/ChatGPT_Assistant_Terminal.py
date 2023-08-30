@@ -1,6 +1,10 @@
-import openai
+import sys
+sys.path.append("/Users/silinmeng/Python_Projects/ChatBot")
 
-openai.api_key = "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"
+import openai
+import constants
+
+openai.api_key = constants.API_KEY
 
 messages = []
 system_msg = input("What Type Of Chatbot Would You Like To Create?\n")
