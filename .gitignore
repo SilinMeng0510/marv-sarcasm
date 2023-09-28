@@ -2,3 +2,5 @@ venv/
 flagged/
 constants.py
 __pycache__/
+.DS_Store
+chat_bot.egg-info/

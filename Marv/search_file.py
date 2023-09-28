@@ -12,6 +12,5 @@ response = openai.File.list()
 if request == 'Search':
     print(response.data)
 elif request == 'Delete':
-    openai.File.delete("file-ujg9a35A4ut7oamIZaE2gI5e")
-    # for file in response.data:
-    #     openai.File.delete(file.id)
+    for file in response.data:
+        openai.File.delete(file.id)
